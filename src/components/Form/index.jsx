@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 export default function Form() {
   const [email, setEmail] = useState("");
   const [error, setError] = useState(false);
-  const [empty, setEmpty] = useState(false)
+  const [empty, setEmpty] = useState(false);
 
   function errorCheck() {
     // checks if email matches and returns true or false
@@ -30,11 +30,11 @@ export default function Form() {
       theme: "light",
     });
 
-    function timeOut(str) {
-      setTimeout((str) => {
-        di
-      }, 5000);
-    }
+  function timeOut(str) {
+    setTimeout((str) => {
+      di;
+    }, 5000);
+  }
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -80,7 +80,6 @@ export default function Form() {
           value={email}
           placeholder="Your email address..."
           onChange={(e) => setEmail(e.target.value)}
-          formNoValidate={true}
         />
         <div className="error_container desktopHidden">
           {/* {empty && (

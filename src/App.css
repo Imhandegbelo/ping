@@ -8,7 +8,7 @@
 
 
 .App {
-  padding-top: 3rem;
+  padding-top: 4rem;
   padding-bottom: 1.5rem;
   margin-left: auto;
   margin-right: auto;
@@ -35,12 +35,12 @@ span {
 
 .subscribe {
   font-size: 1.1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   color: hsl(209, 33%, 12%);
 }
 
 input[type="email"] {
-  border: 1px solid hsl(223, 100%, 88%);
+  border: 1px solid hsl(224, 80%, 88%);
   font-size: 0.9rem;
   letter-spacing: 1%;
   padding: 14px 26px;
@@ -62,7 +62,7 @@ input::-ms-input-placeholder {
   color: hsl(223, 100%, 88%);
 }
 .error_container{
-  padding-bottom: 3.7rem;
+  padding-bottom: 4rem;
   padding-left: 1.7rem;
   text-align: left;
 }
@@ -119,7 +119,10 @@ small {
   width: 10rem;
   display: flex;
   justify-content: space-around;
-  margin: 2rem auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .icon{
   margin-left: auto;
