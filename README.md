@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/ping-coming-soon-page-using-react-vitejs-Cke7SvqXRx)
 - Live Site URL: [ping](https://imhandegbelo.github.io/ping/)
 
 ## My process
